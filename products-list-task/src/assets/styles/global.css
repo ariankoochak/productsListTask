@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+/*----------------------------------------navbar styles*/
+nav{
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav .logo,
+nav .pages,
+nav .account-and-cart{
+    display: inline-block;
+    text-align: left;
+}
+
+nav .logo{
+    width: 25%;
+}
+
+nav .logo h1{
+    margin-left: 20px;
+}
+
+nav .pages{
+    width: 50%;
+}
+
+nav .pages ul{
+    text-align: center;
+}
+
+nav .pages li{
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+nav .account-and-cart{
+    width: 25%;
+    text-align: right;
+}
+
+nav .account-and-cart .cart,
+nav .account-and-cart .account{
+    display: inline-block;
+    margin-right: 20px;
+}
+/*----------------------------------------navbar styles*/

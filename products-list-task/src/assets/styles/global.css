@@ -24,6 +24,10 @@ img{
     width: 100%;
 }
 
+p{
+    margin: 0;
+}
+
 /*----------------------------------------navbar styles*/
 nav{
     margin-top: 20px;
@@ -171,3 +175,17 @@ nav .account-and-cart .account{
     text-align: center;
 }
 /*----------------------------------------category styles*/
+
+/*----------------------------------------about-us styles*/
+.about-us{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.about-us p{
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+}
+/*----------------------------------------about-us styles*/

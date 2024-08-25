@@ -20,6 +20,10 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
+img{
+    width: 100%;
+}
+
 /*----------------------------------------navbar styles*/
 nav{
     margin-top: 20px;
@@ -66,3 +70,55 @@ nav .account-and-cart .account{
     margin-right: 20px;
 }
 /*----------------------------------------navbar styles*/
+
+/*----------------------------------------product-card styles*/
+.product{
+    text-align: left;
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+}
+
+.product .product-image{
+    background-color: white;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product img{
+    margin-top: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.product span{
+    display: block;
+    cursor: pointer;
+}
+
+.product .title{
+    font-size: 20px;
+}
+
+.product .price{
+    font-size: 20px;
+    cursor: default;
+}
+
+.product .category{
+    margin: 5px 0;
+}
+/*----------------------------------------product-card styles*/
+
+/*----------------------------------------shop styles*/
+.shop{
+    text-align: center;
+}
+.shop .products{
+    width: 92%;
+    margin: 0 auto;
+    text-align: left;
+}
+/*----------------------------------------shop styles*/

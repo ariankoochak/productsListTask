@@ -113,6 +113,7 @@ nav .account-and-cart .account{
 }
 
 .product .category{
+    text-align: left;
     margin: 5px 0;
 }
 /*----------------------------------------product-card styles*/
@@ -128,3 +129,45 @@ nav .account-and-cart .account{
     text-align: left;
 }
 /*----------------------------------------shop styles*/
+
+
+
+/*----------------------------------------category-card styles*/
+.category{
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+}
+
+.category .product-image{
+    background-color: white;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.category img{
+    margin-top: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.category span{
+    display: block;
+    cursor: pointer;
+}
+
+.category .title{
+    font-size: 20px;
+}
+/*----------------------------------------category-card styles*/
+
+/*----------------------------------------category styles*/
+.categories{
+    margin-top: 100px;
+    text-align: center;
+}
+/*----------------------------------------category styles*/

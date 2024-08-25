@@ -1,6 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar({selected}) {
+    const navigate = useNavigate();
+
+    const addSelectedStyle = (title)=>{
+        return title.toLowerCase() === selected?.toLowerCase() ? 'selected' : ''
+    }
+    const handleClickPages = (e)=>{
+        let pageName = e.target.textContent.toLowerCase();
+        pageName = pageName.split(" ");
+        pageName = pageName.join("-")
+        navigate(`/${pageName}`)
+    }   
     return (
         <nav>
             <div className="logo">
@@ -8,10 +20,10 @@ export default function Navbar() {
             </div>
             <div className="pages">
                 <ul>
-                    <li>Shop</li>
-                    <li>Categories</li>
-                    <li>Contact us</li>
-                    <li>About us</li>
+                    <li className={addSelectedStyle('shop')} onClick={handleClickPages}>Shop</li>
+                    <li className={addSelectedStyle('categories')} onClick={handleClickPages}>Categories</li>
+                    <li className={addSelectedStyle('contact us')} onClick={handleClickPages}>Contact us</li>
+                    <li className={addSelectedStyle('about us')} onClick={handleClickPages}>About us</li>
                 </ul>
             </div>
             <div className="account-and-cart">

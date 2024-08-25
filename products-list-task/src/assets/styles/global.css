@@ -59,6 +59,10 @@ nav .pages li{
     cursor: pointer;
 }
 
+nav .pages ul .selected{
+    font-weight: 600;
+}
+
 nav .account-and-cart{
     width: 25%;
     text-align: right;
@@ -86,6 +90,7 @@ nav .account-and-cart .account{
     height: 250px;
     text-align: center;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .product img{
@@ -114,6 +119,7 @@ nav .account-and-cart .account{
 
 /*----------------------------------------shop styles*/
 .shop{
+    margin-top: 100px;
     text-align: center;
 }
 .shop .products{

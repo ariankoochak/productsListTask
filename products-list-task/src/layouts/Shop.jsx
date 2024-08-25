@@ -26,7 +26,7 @@ export default function Shop() {
     };
     return (
         <>
-            <Navbar />
+            <Navbar selected={'shop'}/>
             <div className="shop">
                 <div className="products">{renderProducts(products)}</div>
             </div>

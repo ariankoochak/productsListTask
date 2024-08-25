@@ -5,6 +5,7 @@ import Shop from './layouts/Shop';
 import Categories from './layouts/Categories';
 import ContactUs from './layouts/ContactUs';
 import AboutUs from './layouts/AboutUs';
+import ProductPage from './layouts/ProductPage';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
               <Route path="/categories" element={<Categories />}></Route>
               <Route path="/contact-us" element={<ContactUs />}></Route>
               <Route path="/about-us" element={<AboutUs />}></Route>
+              <Route path="/product/*" element={<ProductPage />}></Route>
           </Routes>
       </BrowserRouter>
   );

@@ -28,6 +28,11 @@ p{
     margin: 0;
 }
 
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
 /*----------------------------------------navbar styles*/
 nav{
     margin-top: 20px;
@@ -189,3 +194,51 @@ nav .account-and-cart .account{
     margin: 10px auto;
 }
 /*----------------------------------------about-us styles*/
+
+
+/*----------------------------------------product-page styles*/
+
+.product-page-data{
+    margin-top: 100px;
+}
+.product-page-data .image,
+.product-page-data .details{
+    display: inline-block;
+}
+
+.product-page-data .image{
+    width: 35%;
+    text-align: center;
+}
+
+.product-page-data .image .img-container{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+
+.product-page-data .image .img-container img{
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 50px;
+}
+
+.product-page-data .details{
+    width: 64%;
+    float: right;
+    margin-top: 150px;
+}
+
+.product-page-data .details span{
+    display: block;
+}
+
+.product-page-data .details .product-category{
+    margin-bottom: 20px;
+}
+
+.product-page-data .details .product-description{
+    margin-bottom: 20px;
+}
+
+/*----------------------------------------product-page styles*/

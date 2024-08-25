@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function MainPage() {
-  return (
-    <div>MainPage</div>
-  )
+    const navigate = useNavigate();
+    useEffect(()=>{
+        navigate("/shop")
+    },[navigate])
+    return (
+        <></>
+    );
 }
